@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="content_language" content="ru">
+  <meta name="description" content="description">
+  <title>title</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <div id="preloader">
+    <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="64px" height="64px" viewBox="0 0 128 128" xml:space="preserve"><script type="text/ecmascript" xlink:href="//preloaders.net/jscripts/smil.user.js"/><rect x="0" y="0" width="100%" height="100%" fill="#FFFFFF" /><g><path d="M75.4 126.63a11.43 11.43 0 0 1-2.1-22.65 40.9 40.9 0 0 0 30.5-30.6 11.4 11.4 0 1 1 22.27 4.87h.02a63.77 63.77 0 0 1-47.8 48.05v-.02a11.38 11.38 0 0 1-2.93.37z" fill="#767676" fill-opacity="1"/><animateTransform attributeName="transform" type="rotate" from="0 64 64" to="360 64 64" dur="1800ms" repeatCount="indefinite"></animateTransform></g></svg>
+  </div>  
+
+<!-- Header section -->
+  <header>
+    <div class="mainContainer">
+      <div class="header__wrapp">
+        <div class="header__logo">
+          <img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x," alt="Логотип" width="273" height="100">
+        </div>  
+        <div class="header__contacts">
+          <div class="header__contacts__phones">
+            <a href="tel:+7499777777">+7 (499) 777-77-77</a>
+            <a href="tel:+7499777777">+7 (499) 777-77-77</a>
+          </div>
+          <a href="#" class="header__contacts__feedback" data-remodal-target="feedback-modal">Обратная связь</a>
+        </div>
+      </div>
+    </div> 
+  </header>
+
+<main class="content">
+<!-- Menu section -->
+  <nav class="menu">
+    <div class="mainContainer">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="#">Главная</a></li> 
+        <li class="menu__item"><a href="#">Каталог</a></li>
+        <li class="menu__item"><a href="#">Доставка и оплата</a></li>
+        <li class="menu__item"><a href="#">Прайс-лист</a></li>
+        <li class="menu__item"><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Slider section -->
+  <section class="slider">
+    <div class="slider__list" id="slider-list">
+      <div class="slider__item" style="background-image: url('http://fakeimg.pl/1550x500/dcdcdc/');"></div>
+      <div class="slider__item" style="background-image: url('http://fakeimg.pl/1250x400/dcdcdc/');"></div>
+      <div class="slider__item" style="background-image: url('http://fakeimg.pl/1750x200/dcdcdc/');"></div>
+      <div class="slider__item" style="background-image: url('http://fakeimg.pl/750x550/dcdcdc/');"></div>
+      <div class="slider__item" style="background-image: url('http://fakeimg.pl/860x350/dcdcdc/');"></div>
+      <div class="slider__item" style="background-image: url('http://fakeimg.pl/1350x600/dcdcdc/');"></div>
+    </div>
+    <div class="mainContainer">
+      <div class="slider__nav">
+        <button type="button" class="slider__nav__btn prev"></button>
+        <button type="button" class="slider__nav__btn next"></button>
+      </div>
+    </div>
+  </section>
+
+<!-- Catalog section -->
+  <section class="catalog">
+    <div class="mainContainer">
+      <ul class="catalog__breadcrumbs">
+        <li class="catalog__breadcrumbs__item"><a href="#">Главная</a></li>
+        <li class="catalog__breadcrumbs__item"><a href="#">Каталог</a></li>
+        <li class="catalog__breadcrumbs__item active"><a href="#">Бытовая техника</a></li>
+      </ul>
+      <div class="catalog__wrapp">
+        <aside class="catalog__nav">
+          <ul class="catalog__nav__list">
+            <li class="catalog__nav__item"><a class="catalog__nav__item__link" href="#">Автомобили</a></li>
+            <li class="catalog__nav__item active">
+              <a class="catalog__nav__item__link" href="#">Бытовая техника</a>
+              <ul class="catalog__nav__list-inner"> 
+                <li class="catalog__nav__item-inner"><a class="catalog__nav__item-inner__link active" href="#">Микроволновки</a></li>
+                <li class="catalog__nav__item-inner"><a class="catalog__nav__item-inner__link" href="#">Холодильники</a></li>
+                <li class="catalog__nav__item-inner"><a class="catalog__nav__item-inner__link" href="#">Посудомоечные машины </a></li>
+                <li class="catalog__nav__item-inner"><a class="catalog__nav__item-inner__link" href="#">Чайники</a></li>
+              </ul>
+            </li>
+            <li class="catalog__nav__item"><a class="catalog__nav__item__link" href="#">Мобильная техника</a></li>
+            <li class="catalog__nav__item"><a class="catalog__nav__item__link" href="#">Компьютеры</a></li>
+            <li class="catalog__nav__item"><a class="catalog__nav__item__link" href="#">Одежда</a></li>
+            <li class="catalog__nav__item"><a class="catalog__nav__item__link" href="#">Недвижимость</a></li>
+          </ul>
+          <div class="catalog__price-list">
+            <a href="documents/price.xls" download></a>
+            <span>Прайс-лист</span>
+          </div>
+        </aside>
+        <div class="catalog__issue">
+          <div class="catalog__issue__list">
+            <aside class="catalog__card">
+              <div class="catalog__card__img"><img src="img/catalog_card.jpg" alt="Изображение товара"></div>
+              <div class="catalog__card__descr">Самый клевый чайник, <br>который надо купить!</div>
+              <div class="catalog__card__price"><b>1 900 р.</b> <a href="#" class="catalog__card__price__icon"></a></div>
+            </aside>
+            <aside class="catalog__card">
+              <div class="catalog__card__img"><img src="img/catalog_card.jpg" alt="Изображение товара"></div>
+              <div class="catalog__card__descr">Самый клевый чайник, <br>который надо купить!</div>
+              <div class="catalog__card__price"><b>1 900 р.</b> <a href="#" class="catalog__card__price__icon"></a></div>
+            </aside>
+            <aside class="catalog__card">
+              <div class="catalog__card__img"><img src="http://fakeimg.pl/170x160/dcdcdc/" alt="Изображение товара"></div>
+              <div class="catalog__card__descr">Самый клевый чайник, <br>который надо купить!</div>
+              <div class="catalog__card__price"><b>1 900 р.</b> <a href="#" class="catalog__card__price__icon"></a></div>
+            </aside>
+            <aside class="catalog__card">
+              <div class="catalog__card__img"><img src="http://fakeimg.pl/370x360/dcdcdc/" alt="Изображение товара"></div>
+              <div class="catalog__card__descr">Самый клевый чайник, <br>который надо купить!</div>
+              <div class="catalog__card__price"><b>1 900 р.</b> <a href="#" class="catalog__card__price__icon"></a></div>
+            </aside>
+            <aside class="catalog__card">
+              <div class="catalog__card__img"><img src="img/catalog_card.jpg" alt="Изображение товара"></div>
+              <div class="catalog__card__descr">Самый клевый чайник, <br>который надо купить!</div>
+              <div class="catalog__card__price"><b>1 900 р.</b> <a href="#" class="catalog__card__price__icon"></a></div>
+            </aside>
+          </div>
+          <div class="catalog__issue__pagination">
+            <ul class="catalog__issue__pagination__list">
+              <li class="catalog__issue__pagination__item"><a href="#">1</a></li>
+              <li class="catalog__issue__pagination__item"><a href="#">2</a></li>
+              <li class="catalog__issue__pagination__item active"><a href="#">3</a></li>
+              <li class="catalog__issue__pagination__item"><a href="#">4</a></li>
+              <li class="catalog__issue__pagination__item"><a href="#">5</a></li>
+              <li class="catalog__issue__pagination__item"><a href="#">6</a></li>
+              <li class="catalog__issue__pagination__item"><a href="#">7</a></li>
+            </ul>
+          </div>
+          <div class="catalog__issue__about">
+            <div class="catalog__issue__about__descr">
+              <p>Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души. </p>
+              <p>Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer section -->
+  <footer>
+    <div class="mainContainer">
+      <div class="footer__wrapp">
+        <div class="footer__contacts">
+          <p>© 2012–2013 ЗАО «Компания» </p>
+          <a href="mailto:info@name.ru">info@name.ru</a>
+        </div>
+        <ul class="footer__nav">
+          <li class="footer__nav__item"><a href="#">Главная</a></li>
+          <li class="footer__nav__item"><a href="#">Каталог</a></li>
+          <li class="footer__nav__item"><a href="#">Доставка и оплата</a></li>
+          <li class="footer__nav__item"><a href="#">Прайс-лист</a></li>
+          <li class="footer__nav__item"><a href="#">Контакты</a></li>
+        </ul>
+        <div class="footer__about">
+          <a href="#">Разработка сайта</a> —<br> 
+          <p>компания «Пиксель Плюс»</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Feedback-modal -->
+<div class="remodal feedback-modal" data-remodal-id="feedback-modal">  
+  <a data-remodal-action="close" class="remodal-close"></a>
+  <div class="feedback-modal__wrapp">
+    <div class="feedback-modal__heading">Обратная связь</div>
+    <form action="" method="post" id="feedback-form" class="feedback-form">
+      <label for="feedback-form_name">Ваше имя *</label>
+      <input type="text" name="feedback-form_name" placeholder="Имя" required> 
+      <label for="feedback-form_phone">Телефон *</label>
+      <input type="text" name="feedback-form_phone" placeholder="Телефон" required>
+      <label for="feedback-form_mail">Email *</label>
+      <input type="email" name="feedback-form_mail" placeholder="Email" required>
+      <label for="feedback-form_message">Сообщение</label>
+      <textarea name="feedback-form_message"></textarea>
+      <button type="button">отправить</button>
+    </form>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.js"></script> 
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
